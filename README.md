@@ -24,4 +24,4 @@ Aplicație web pentru gestionarea unui cinematograf.
 2. Rulați:
 composer require phpmailer/phpmailer (vendor inlaturat)
 3. Completați datele DB in config/config.php
-4. completati parola in core/Mailer.php
+4. completati parola in core/Mailer.php -   $mail->Password   = '.....';
