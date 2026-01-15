@@ -3,13 +3,13 @@
 Aplicație web pentru gestionarea unui cinematograf.
 
 ## Funcționalități
-- Autentificare / înregistrare utilizatori
+- Autentificare / înregistrare utilizatori - cu confirmare adresa email
 - Doua roluri de utilizator (user si admin)
-- Rezervări filme cu sloturi orare
+- Rezervări bilete la film cu sloturi orare
 - Limitare locuri (10 / proiecție)
 - CRUD filme (admin)
 - CRUD programări (admin)
-- Profil utilizator
+- Profil utilizator - cu optiunea de stergere cont si CRUD date personale
 - Statistici site (analytics)
 - Formular de contact (email)
 - Protecție securitate (CSRF, XSS, SQL Injection)
