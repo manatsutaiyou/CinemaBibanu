@@ -37,18 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 
-$reservations = $db->query("
-    SELECT 
-        r.id,
-        m.title,
-        s.screening_date,
-        s.screening_time
-    FROM reservations r
-    JOIN screenings s ON s.id = r.screening_id
-    JOIN movies m ON m.id = s.movie_id
-    WHERE r.user_id = {$user['id']}
-    ORDER BY s.screening_date, s.screening_time
-");
+
 ?>
 
 <?php include '../includes/header.php'; ?>
